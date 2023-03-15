@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<!-- _layouts/cv.html -->
+        <div class="post">
+          <header class="post-header">
+              <embed src="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url}}#toolbar=0" width="800" height="800">
+            </h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+        </div>
