@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Siddhartha Chandra
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st December 1986
     - name: Languages
-      value: English, German
+      value: English, Hindi, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Masters
+      institution: Columbia University, New York
+      year: 2015
       description:
         - Description 1.
         - Description 2.
