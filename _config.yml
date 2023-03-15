@@ -64,8 +64,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: siddhartha-chandra
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: nosiddin
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: chandrasiddhartha
 telegram_username: # your Telegram user name
@@ -74,7 +73,7 @@ semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: siddharthachandra
-quora_username: # your Quora username
+quora_username: Siddhartha-Chandra-1
 publons_id: # your ID on Publons
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
@@ -96,7 +95,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Best reachable on LinkedIn & Email
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
