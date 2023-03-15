@@ -2,24 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  mindful expression, seasoned with creativity & humor
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+    <p> Lucknow | Mumbai </p>
+    <p> NYC | Santa Clara </p>
+    <p> Chandigarh | Delhi </p>
+    
+  
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi There! My name is **Siddhartha Chandra** and you've landed on the space where I house my projects, blogs and thoughts on topics that matter to me.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I've been a technologist for more than a decade. My education and work journey has been divided between India and the US. From the former, I have learnt to be resourceful, work well in competitive environments and be driven to solve problems. The latter has helped me understand and appreciate brevity, listen intently and ask better questions. 
+My experiences have equipped me with a mindset essential for thriving in multi-cultural settings and solving problems across a diverse breadth of areas.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love to sing, run long distance races and enjoy playing board-games & outdoor sports.
+Capturing Nature & People portraits is something I find deeply satisfying. 
+
+and I'm always on the lookout for solving collective pain-points using technology.
