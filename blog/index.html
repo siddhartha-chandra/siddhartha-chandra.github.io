@@ -47,6 +47,7 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
+    {% if post.visible %}
     <li>
       <h3>
         {% if post.redirect == blank %}
@@ -91,6 +92,7 @@ pagination:
           {% endif %}
     </p>
     </li>
+    {% endif %}
 
     {% endfor %}
   </ul>
