@@ -16,7 +16,7 @@ layout: default
         });
         adobeDCView.previewFile(
           {
-            content: { location: { url: "{{ 'assets/pdf/' | prepend:relative_url}}" } },
+            content: { location: { url: "{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url}}" } },
             metaData: { fileName: '{{ page.resume_pdf}}' },
           },
           {
