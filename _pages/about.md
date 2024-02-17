@@ -24,4 +24,4 @@ I love to sing, run long distance races and enjoy playing board-games & outdoor 
 Capturing the beauty of Nature & simplicity and authenticity in People portraits is something I find deeply satisfying. 
 
 I'm always on the lookout for solving collective pain-points using technology. 
-If you are working on solving interesting problems in areas which require creativity, problem-solving skills, innovation and a high degree of empathy, I would love to connect. 
+If you are working on solving interesting problems in areas which require creativity, problem-solving skills, innovation and empathy, I would love to connect. 
