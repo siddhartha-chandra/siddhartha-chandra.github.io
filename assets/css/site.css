@@ -291,7 +291,7 @@ h2 {
 }
 
 .resume-content {
-  max-width: 760px;
+  max-width: 100%;
   padding: 2rem 0 3rem;
 }
 
