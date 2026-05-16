@@ -199,95 +199,88 @@ h2 {
   max-width: 46rem;
 }
 
+.role ul {
+  padding-left: 1.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.role li {
+  color: var(--ink);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.role li strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .signal-list,
 .timeline,
 .post-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
 }
 
 .signal,
 .role,
 .post-card {
   min-height: 100%;
-  padding: 1rem;
+  padding: 2rem;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 12px;
   background: rgba(251, 250, 247, 0.72);
+  display: flex;
+  flex-direction: column;
 }
 
 .signal strong,
 .role strong,
 .post-card a {
   display: block;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
   font-weight: 720;
+  font-size: 1.15rem;
+  color: var(--accent);
 }
 
 .signal span,
-.role span,
+.role > span,
 .post-card p,
 .post-card time {
   color: var(--muted);
   font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
-.tag-row span {
-  padding: 0.25rem 0.55rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--soft);
-  color: var(--ink);
-  font-size: 0.88rem;
+.role > span {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
 }
 
-.page-hero,
-.post-header {
+.role ul {
+  padding-left: 1.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.section-grid {
   display: grid;
-  gap: 1rem;
-  max-width: 720px;
-  padding: clamp(2.25rem, 6vw, 4rem) 0 2.5rem;
-}
-
-.resume-viewer {
-  width: 100%;
-  min-height: 78vh;
-  margin: 1rem 0 3rem;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--soft);
-}
-
-.post {
-  max-width: 760px;
-  padding-bottom: 4rem;
-}
-
-.post h1 {
-  max-width: 16ch;
-  font-size: clamp(2.35rem, 6vw, 4.2rem);
-}
-
-.post-body {
-  font-size: 1.08rem;
-}
-
-.post-body img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-.back-link {
-  display: inline-block;
-  margin-top: 2rem;
-}
-
-.resume-hero {
-  display: grid;
-  gap: 1rem;
-  max-width: 720px;
-  padding: clamp(2.25rem, 6vw, 4rem) 0 2.5rem;
+  grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  padding: 4rem 0;
+  border-top: 1px solid var(--line);
 }
 
 .resume-subtitle {
