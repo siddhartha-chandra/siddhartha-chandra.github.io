@@ -283,6 +283,155 @@ h2 {
   margin-top: 2rem;
 }
 
+.resume-hero {
+  display: grid;
+  gap: 1rem;
+  max-width: 720px;
+  padding: clamp(2.25rem, 6vw, 4rem) 0 2.5rem;
+}
+
+.resume-subtitle {
+  margin: 0;
+  color: var(--accent);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.resume-content {
+  max-width: 760px;
+  padding: 2rem 0 3rem;
+}
+
+.resume-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--line);
+  color: var(--accent);
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+}
+
+.resume-content h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.resume-content h3 + strong {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.resume-content blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: var(--soft);
+  border-radius: 0 6px 6px 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.resume-content table {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.resume-content th {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 2px solid var(--accent);
+  text-align: left;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.resume-content td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.resume-content ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.resume-content li {
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+
+.resume-content li strong {
+  color: var(--accent-2);
+}
+
+.resume-content hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid var(--line);
+}
+
+.resume-content a {
+  font-weight: 500;
+}
+
+.resume-pdf {
+  margin-top: 2rem;
+}
+
+.resume-viewer {
+  width: 100%;
+  min-height: 78vh;
+  margin: 1rem 0 3rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+@media (max-width: 760px) {
+  .resume-content table,
+  .resume-content thead,
+  .resume-content tbody,
+  .resume-content th,
+  .resume-content td,
+  .resume-content tr {
+    display: block;
+  }
+
+  .resume-content thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .resume-content tr {
+    margin-bottom: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 0.5rem;
+  }
+
+  .resume-content td {
+    border: none;
+    border-bottom: 1px solid var(--line);
+    padding: 0.5rem 0;
+  }
+
+  .resume-content td:last-child {
+    border-bottom: none;
+  }
+}
+
 @media (max-width: 760px) {
   .site-header,
   .site-footer {
