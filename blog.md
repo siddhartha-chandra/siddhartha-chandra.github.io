@@ -1,31 +1,7 @@
 ---
-layout: default
+layout: blog
 title: Blog
 permalink: /blog/
 description: Notes, essays, and working thoughts.
 ---
 
-<section class="page-hero" aria-labelledby="blog-title">
-  <p class="kicker">Blog</p>
-  <h1 id="blog-title">Notes from the workbench.</h1>
-  <p class="page-intro">
-    Short essays, technical notes, and thoughts worth keeping in public.
-  </p>
-</section>
-
-<section class="section-grid" aria-labelledby="posts">
-  <h2 id="posts">Posts</h2>
-  <div class="post-list">
-    {% for post in site.posts %}
-    <article class="post-card">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% if post.description %}
-      <p>{{ post.description }}</p>
-      {% endif %}
-    </article>
-    {% else %}
-    <p>No posts yet. Add one to <code>_posts</code> and it will show up here.</p>
-    {% endfor %}
-  </div>
-</section>
