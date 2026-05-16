@@ -1,0 +1,69 @@
+---
+layout: default
+title: Resume
+permalink: /resume/
+description: Resume for Siddhartha Chandra.
+---
+
+<section class="page-hero" aria-labelledby="resume-title">
+  <p class="kicker">Resume</p>
+  <h1 id="resume-title">Senior technologist.</h1>
+  <p class="page-intro">
+    15+ years across backend engineering, data science, AI-oriented systems, teaching, and startup leadership. Current work includes logistics engineering in Germany; prior roles span Columbia University, B2B data science products, technical mentorship, and founder ecosystem building.
+  </p>
+  <div class="actions">
+    <a class="button-link" href="{{ '/assets/pdf/Resume_2.1.1.pdf' | relative_url }}">Open PDF</a>
+    <a class="button-link" href="{{ '/assets/pdf/Resume_2.1.1.pdf' | relative_url }}" download>Download</a>
+    <a class="button-link" href="mailto:{{ site.email }}">Contact</a>
+  </div>
+</section>
+
+<section class="section-grid" aria-labelledby="resume-focus">
+  <h2 id="resume-focus">Focus</h2>
+  <div class="signal-list">
+    <div class="signal">
+      <strong>Software engineering</strong>
+      <span>Backend services, logistics systems, data pipelines, APIs, and production foundations.</span>
+    </div>
+    <div class="signal">
+      <strong>Data and AI</strong>
+      <span>Entity deduplication, NLP, applied ML, dashboards, quality measurement, and analytics.</span>
+    </div>
+    <div class="signal">
+      <strong>Leadership</strong>
+      <span>Startup support, strategic partnerships, team management, coaching, and mentorship.</span>
+    </div>
+    <div class="signal">
+      <strong>Teaching</strong>
+      <span>Data Structures, Advanced Algorithms, Business Analytics, and student project guidance.</span>
+    </div>
+  </div>
+</section>
+
+<section class="section-grid" aria-labelledby="resume-highlights">
+  <h2 id="resume-highlights">Highlights</h2>
+  <div class="timeline">
+    <div class="role">
+      <strong>Backend Engineer</strong>
+      <span>Core logistics team work contributing to improved fulfilment offerings in the Netherlands and Sweden.</span>
+    </div>
+    <div class="role">
+      <strong>CEO</strong>
+      <span>Supported roughly 60 tech startups with a 6-person team, 5 strategic partnerships, and a managed fund around 1.3M EUR.</span>
+    </div>
+    <div class="role">
+      <strong>Professor of Practice</strong>
+      <span>Taught undergraduate and graduate technical courses, advised 14 project groups, and helped revise the Data Structures syllabus.</span>
+    </div>
+    <div class="role">
+      <strong>Data Science Engineer</strong>
+      <span>Built a daily deduplication pipeline for about 10M entities and strengthened data science engineering practices.</span>
+    </div>
+  </div>
+</section>
+
+<object class="resume-viewer" data="{{ '/assets/pdf/Resume_2.1.1.pdf' | relative_url }}" type="application/pdf">
+  <p>
+    Your browser could not display the embedded PDF. <a href="{{ '/assets/pdf/Resume_2.1.1.pdf' | relative_url }}">Open the resume PDF</a>.
+  </p>
+</object>
