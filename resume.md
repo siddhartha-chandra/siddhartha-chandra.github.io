@@ -7,19 +7,19 @@ layout: resume
   <div class="signal-list">
     <div class="signal">
       <strong>Backend Engineering</strong>
-      <span>Python, Scala, Kotlin, Java, SQL. Microservices, REST APIs, Flask, Docker, Spark, Kafka, AWS, Airflow.</span>
+      <span>Python, Scala, Kotlin, C/C++, Java, SQL. Springboot, Flask, REST APIs, Docker, Spark, Kafka, AWS, Hadoop.</span>
     </div>
     <div class="signal">
       <strong>Data Science & AI</strong>
-      <span>Applied ML, NLP, Advanced Algorithms, Predictive Modelling, Hybrid Optimisation, Data Pipelines, Analytics.</span>
+      <span>Applied ML, NLP, Analytics, Scalyr, PostgreSQL, MongoDB, Neo4j, Airflow.</span>
     </div>
     <div class="signal">
       <strong>Technical Leadership</strong>
-      <span>Strategic Partnerships, Technical Roadmaps, Mentorship, Team Scaling, Budget Management.</span>
+      <span>Strategic Partnerships, Tech-arm Setup, Mentorship, Team Coaching, Conflict Resolution, Managed Fund (~1.3M €).</span>
     </div>
     <div class="signal">
       <strong>Product & Strategy</strong>
-      <span>Entrepreneurship, Coaching, Early-stage tech strategy, EdTech product development.</span>
+      <span>Entrepreneurship, Story-telling, Problem Solving, Teaching, EdTech product development.</span>
     </div>
   </div>
 </section>
@@ -29,12 +29,22 @@ layout: resume
   <div class="timeline">
     
     <div class="role">
-      <strong>Senior IC (Backend & Data)</strong>
+      <strong>Sr. IC (Backend & Data)</strong>
       <span>Zalando SE &nbsp;·&nbsp; May 2025 – Present &nbsp;·&nbsp; Berlin</span>
       <ul>
-        <li><strong>Strategic Systems Architecture:</strong> Directed core implementation of an evolutionary fulfillment feature, reimagining shipment logic and increasing average daily shipping volume by ~120 units across NL and SE markets</li>
-        <li><strong>Tier-2 Application Ownership:</strong> Spearheaded end-to-end development and delivery of a mission-critical Tier-2 Logistics application over an 8-month lifecycle</li>
-        <li><strong>Operational Transformation:</strong> Architected and executed the transition of a legacy operational automator and decommissioning of obsolete services, significantly reducing technical debt</li>
+        <li>Architected a cross-team system for enabling Multi-carrier injection hub in Logistics</li>
+        <li>Evolved system for improved fulfilment offering, that resulted in increasing avg. daily shipping by ~120 for Netherlands & Sweden</li>
+        <li>Architected a bridge application (tier-2) that consolidates context for fulfilment planning</li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <strong>Sr. Data Science Engineer</strong>
+      <span>Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022 &nbsp;·&nbsp; US</span>
+      <ul>
+        <li>Created a daily data deduplication pipeline for ~10M entities unlocking a speed-gain of <strong>10X</strong></li>
+        <li>Co-authored system for predicting win probability, close time & customer revenue based on a deal pipeline for sales-representatives of B2B clients</li>
+        <li>Built strong engineering foundations for the Data science team, mentored developers, added dashboard monitoring and played a critical role in legacy code transitions & technical-debt payoffs</li>
       </ul>
     </div>
 
@@ -42,27 +52,18 @@ layout: resume
       <strong>Chief Executive Officer</strong>
       <span>SPTBI (Tech Incubator) &nbsp;·&nbsp; May 2024 – May 2025</span>
       <ul>
-        <li><strong>Organizational Leadership:</strong> Managed a team of 6 and oversaw a portfolio of ~60 early-stage tech startups, providing high-level technical and business strategy</li>
-        <li><strong>Financial & Strategic Oversight:</strong> Directed a ~€1.3M fund and established 5 strategic partnerships to build out the incubator's technical infrastructure arm</li>
+        <li>Supported ~60 tech startups with a team of 6</li>
+        <li>5 Strategic partnerships; Tech-arm setup</li>
+        <li>Managed fund: <strong>~1.3M €</strong></li>
       </ul>
     </div>
 
     <div class="role">
-      <strong>Co-Founder & Technical Advisor</strong>
-      <span>SixLadders &nbsp;·&nbsp; June 2024 – Present</span>
+      <strong>Data Scientist</strong>
+      <span>x.ai &nbsp;·&nbsp; Oct 2014 – Sep 2016 &nbsp;·&nbsp; US</span>
       <ul>
-        <li><strong>Architectural Vision:</strong> Established core technical architecture and mentored a distributed engineering team to build a suite of EdTech offerings</li>
-        <li><strong>Growth Strategy:</strong> Steered the product toward a projected 2026 revenue of €0.43M with current metrics of 300 MAU and 100 DAU</li>
-      </ul>
-    </div>
-
-    <div class="role">
-      <strong>Senior Data Science Engineer</strong>
-      <span>Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022</span>
-      <ul>
-        <li><strong>High-Scale Data Engineering:</strong> Engineered a daily data deduplication pipeline for ~10M entities, achieving a <strong>10x gain</strong> in processing speed</li>
-        <li><strong>Applied ML Innovation:</strong> Co-authored a predictive engine for sales win-probability and customer revenue, impacting B2B client pipeline efficiency</li>
-        <li><strong>Technical Mentorship:</strong> Established engineering standards for the Data Science team, leading legacy code transitions and technical-debt payoffs</li>
+        <li>Built a crf-based email parser that outperformed mailgun by ~15% on F1 for signature detection</li>
+        <li>Creator & keeper of dashboards for measuring annotation quality, model performance & KPI's</li>
       </ul>
     </div>
 
@@ -70,17 +71,19 @@ layout: resume
       <strong>Professor of Practice</strong>
       <span>Sardar Patel Institute of Technology &nbsp;·&nbsp; Aug 2023 – May 2025</span>
       <ul>
-        <li><strong>Pedagogical Leadership:</strong> Designed and revised the Data Structures syllabus; lectured on Advanced Algorithms and Business Analytics</li>
-        <li><strong>Technical Mentorship:</strong> Advised 14 technical project groups on engineering execution and research methodology</li>
+        <li><strong>Teaching:</strong> Data Structures (undergrad), Business Analytics (undergrad); Adv Algorithms (MTech)</li>
+        <li><strong>Mentorship:</strong> Advised 14 technical project groups</li>
+        <li>Designed revised syllabus of Data Structures as the convenor, along with 2 professors</li>
+        <li>Papers published in international conferences: 5+</li>
       </ul>
     </div>
 
     <div class="role">
-      <strong>Data Scientist</strong>
-      <span>x.ai &nbsp;·&nbsp; Oct 2014 – Sep 2016</span>
+      <strong>Co-founder</strong>
+      <span>Sixladders &nbsp;·&nbsp; June 2024</span>
       <ul>
-        <li>Architected a crf-based email parser that outperformed commercially available options, and boosted the performance of email intent and entity classifiers</li>
-        <li>Creator & keeper of dashboards for measuring annotation quality, model performance & KPI’s</li>
+        <li>Established architecture and mentored developers in building a suite of educational offerings for students</li>
+        <li><strong>Projections for 2026:</strong> yearly revenue: 0.43M €, MAU: 300; DAU: 100</li>
       </ul>
     </div>
 
@@ -88,7 +91,7 @@ layout: resume
       <strong>Sr. Systems Engineer</strong>
       <span>Infosys Ltd &nbsp;·&nbsp; Sep 2008 – May 2012</span>
       <ul>
-        <li>Part of a team recognized for execution excellence at the organizational level for implementing i18n for a client</li>
+        <li>Part of team recognised for execution excellence at Org level for implementing i8n for a client</li>
       </ul>
     </div>
 
@@ -100,19 +103,23 @@ layout: resume
   <div class="signal-list">
     <div class="signal">
       <strong>Virtual Fitting</strong>
-      <span><a href="https://ijirt.org/article?manuscript=172980">Advanced AI-driven solutions for Virtual fitting</a> (IJIRT)</span>
-    </div>
-    <div class="signal">
-      <strong>Creditworthiness</strong>
-      <span><a href="https://ieeexplore.ieee.org/document/11362576">Hybrid Optimization & Explainability-Driven Framework</a> (IEEE Xplore)</span>
-    </div>
-    <div class="signal">
-      <strong>Dermatological AI</strong>
-      <span><a href="https://ieeexplore.ieee.org/document/11368166">Wavelet-Enhanced Transformer Architecture</a> (IEEE Xplore)</span>
+      <span><a href="#">Advanced AI-driven solutions for Virtual fitting</a></span>
     </div>
     <div class="signal">
       <strong>Accessibility</strong>
-      <span><a href="https://ijirt.org/publishedpaper/IJIRT188128_PAPER.pdf">Enhancing accessibility for people with disabilities</a> (IJIRT)</span>
+      <span><a href="#">Enhancing accessibility for people with disabilities</a></span>
+    </div>
+    <div class="signal">
+      <strong>Creditworthiness</strong>
+      <span><a href="#">Hybrid Optimisation & Explainability-Driven Framework for Creditworthiness Assessment</a></span>
+    </div>
+    <div class="signal">
+      <strong>Dermatological AI</strong>
+      <span><a href="#">Wavelet-Enhanced Transformer Architecture for Dermatological Image Analysis</a></span>
+    </div>
+    <div class="signal" style="grid-column: 1 / -1;">
+      <strong>Risk Prediction</strong>
+      <span><a href="#">Comparative Analysis of Optimized Machine Learning and Deep Learning Models for Credit Risk Prediction</a></span>
     </div>
   </div>
 </section>
@@ -122,11 +129,11 @@ layout: resume
   <div class="timeline">
     <div class="role">
       <strong>MS in Computer Science</strong>
-      <span>Columbia University, New York, NY</span>
+      <span>Columbia University, NY &nbsp;·&nbsp; Sep 2013 - May 2014</span>
     </div>
     <div class="role">
       <strong>BE in Information Technology</strong>
-      <span>Sardar Patel College of Engineering, Mumbai, India</span>
+      <span>Sardar Patel College of Engg, Mumbai University, Mumbai &nbsp;·&nbsp; Aug 2004 - May 2008</span>
     </div>
   </div>
 </section>
