@@ -103,23 +103,23 @@ layout: resume
   <div class="signal-list">
     <div class="signal">
       <strong>Virtual Fitting</strong>
-      <span><a href="#">Advanced AI-driven solutions for Virtual fitting</a></span>
+      <span><a href="https://ijirt.org/article?manuscript=172980">Advanced AI-driven solutions for Virtual fitting</a></span>
     </div>
     <div class="signal">
       <strong>Accessibility</strong>
-      <span><a href="#">Enhancing accessibility for people with disabilities</a></span>
+      <span><a href="https://ijirt.org/publishedpaper/IJIRT188128_PAPER.pdf">Enhancing accessibility for people with disabilities</a></span>
     </div>
     <div class="signal">
       <strong>Creditworthiness</strong>
-      <span><a href="#">Hybrid Optimisation & Explainability-Driven Framework for Creditworthiness Assessment</a></span>
+      <span><a href="https://ieeexplore.ieee.org/document/11362576">Hybrid Optimisation & Explainability-Driven Framework for Creditworthiness Assessment</a></span>
     </div>
     <div class="signal">
       <strong>Dermatological AI</strong>
-      <span><a href="#">Wavelet-Enhanced Transformer Architecture for Dermatological Image Analysis</a></span>
+      <span><a href="https://ieeexplore.ieee.org/document/11368166">Wavelet-Enhanced Transformer Architecture for Dermatological Image Analysis</a></span>
     </div>
     <div class="signal" style="grid-column: 1 / -1;">
       <strong>Risk Prediction</strong>
-      <span><a href="#">Comparative Analysis of Optimized Machine Learning and Deep Learning Models for Credit Risk Prediction</a></span>
+      <span><a href="https://ieeexplore.ieee.org/document/11448178">Comparative Analysis of Optimized Machine Learning and Deep Learning Models for Credit Risk Prediction</a></span>
     </div>
   </div>
 </section>
