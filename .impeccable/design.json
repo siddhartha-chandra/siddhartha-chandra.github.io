@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-11T00:00:00.000Z",
+  "title": "Design System: Siddhartha Chandra",
+  "extensions": {
+    "colorMeta": {
+      "deep-teal": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "canonical": "oklch(45% 0.08 190)",
+        "tonalRamp": ["oklch(15% 0.02 190)", "oklch(25% 0.04 190)", "oklch(35% 0.06 190)", "oklch(45% 0.08 190)", "oklch(55% 0.07 190)", "oklch(65% 0.06 190)", "oklch(78% 0.04 190)", "oklch(92% 0.02 190)"]
+      },
+      "rust": {
+        "role": "secondary",
+        "displayName": "Rust",
+        "canonical": "oklch(42% 0.09 35)",
+        "tonalRamp": ["oklch(15% 0.03 35)", "oklch(24% 0.05 35)", "oklch(33% 0.07 35)", "oklch(42% 0.09 35)", "oklch(52% 0.08 35)", "oklch(63% 0.06 35)", "oklch(76% 0.04 35)", "oklch(90% 0.02 35)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(96% 0.012 80)",
+        "tonalRamp": ["oklch(20% 0.005 80)", "oklch(35% 0.006 80)", "oklch(50% 0.007 80)", "oklch(65% 0.008 80)", "oklch(78% 0.009 80)", "oklch(87% 0.01 80)", "oklch(93% 0.011 80)", "oklch(96% 0.012 80)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(22% 0.008 70)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only, home page." },
+      "body": { "displayName": "Body", "purpose": "All prose and descriptive content." },
+      "label": { "displayName": "Label", "purpose": "Nav links, buttons, tags." }
+    },
+    "shadows": [
+      { "name": "hover-low", "value": "0 2px 8px rgba(0,0,0,0.08)", "purpose": "Card hover state — lifts without competing." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Default easing for state transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Pill-shaped link button used for CTAs and actions.",
+      "html": "<a class=\"ds-btn-primary\" href=\"/resume/\">View resume</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; min-height: 2.25rem; padding: 0.35rem 0.72rem; border: 1px solid #ded8cf; border-radius: 999px; background: rgba(251, 250, 247, 0.74); color: #22201d; font-size: 0.92rem; font-weight: 650; text-decoration: none; transition: background 0.2s, border-color 0.2s, color 0.2s; } .ds-btn-primary:hover { background: #f1ece4; border-color: #0c6b5f; color: #0c6b5f; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Pill-shaped nav item in the site header.",
+      "html": "<nav class=\"ds-site-nav\" aria-label=\"Primary navigation\"><a class=\"ds-nav-link\" href=\"/\" aria-current=\"page\">About</a><a class=\"ds-nav-link\" href=\"/resume/\">Resume</a><a class=\"ds-nav-link\" href=\"/blog/\">Blog</a></nav>",
+      "css": ".ds-site-nav { display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: flex-end; } .ds-nav-link { display: inline-flex; align-items: center; min-height: 2.25rem; padding: 0.35rem 0.72rem; border: 1px solid #ded8cf; border-radius: 999px; background: transparent; color: #22201d; font-size: 0.92rem; font-weight: 650; text-decoration: none; transition: background 0.2s, border-color 0.2s, color 0.2s; } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { background: #f1ece4; border-color: #0c6b5f; color: #0c6b5f; }"
+    },
+    {
+      "name": "Signal Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Content card used for role, signal, and post summaries.",
+      "html": "<div class=\"ds-card\"><strong>Engineering</strong><span>Backend systems, data platforms, APIs, and observability.</span></div>",
+      "css": ".ds-card { min-height: 100%; padding: 2rem; border: 1px solid #ded8cf; border-radius: 8px; background: rgba(251, 250, 247, 0.72); display: flex; flex-direction: column; transition: box-shadow 0.2s; } .ds-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); } .ds-card strong { display: block; margin-bottom: 0.4rem; font-weight: 720; font-size: 1.15rem; color: #0c6b5f; } .ds-card span { color: #6b655d; font-size: 0.95rem; font-weight: 500; line-height: 1.6; }"
+    },
+    {
+      "name": "Wordmark",
+      "kind": "custom",
+      "refersTo": "wordmark",
+      "description": "Site identity: two-line name in the header.",
+      "html": "<a class=\"ds-wordmark\" href=\"/\" aria-label=\"Siddhartha Chandra home\"><span>Siddhartha</span><span>Chandra</span></a>",
+      "css": ".ds-wordmark { display: inline-grid; min-width: 9rem; color: #22201d; font-weight: 760; line-height: 0.95; text-decoration: none; } .ds-wordmark span:last-child { color: #8f3f28; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Study",
+    "overview": "A warm, grounded personal site that reads like a well-kept study — books on shelves, a clear desk, natural light. The visual system communicates capability through precision and restraint. Nothing flashy, nothing performative. Every element earns its place by serving the content.\n\nThe palette centers on a warm off-white paper background with deep teal as the anchor accent and rust as a secondary voice. Typography stays in the system sans-serif stack for reliability and readability. Surfaces are flat at rest with borders defining structure; hover states add a soft shadow and color shift as a deliberate response.",
+    "keyCharacteristics": [
+      "Warm but not decorative — the paper tone is a room, not a texture.",
+      "Flat by default, shadows as response to interaction only.",
+      "Rounded edges are gentle but not exaggerated (8px containers, pill-shaped interactive elements).",
+      "Teal + rust read as deliberate, not accidental: one cool anchor, one warm counterpoint."
+    ],
+    "rules": [
+      { "name": "The Rarity Rule", "body": "Deep Teal is used on ≤15% of any given surface. Its restraint is the point; increasing it dilutes its signal.", "section": "colors" },
+      { "name": "The One-Stack Rule", "body": "Never introduce a second font family. The system stack handles all roles.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Shadows appear only as a response to hover or focus.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use Deep Teal sparingly — the Rarity Rule applies across every surface.",
+      "Do use Rust as the warm counterpoint — secondary headings, wordmark surname, kicker labels.",
+      "Do keep surfaces flat at rest. Hover-only shadows, never resting shadows.",
+      "Do use the single system-sans stack for all typography.",
+      "Do use pill-shaped interactive elements (nav links, buttons) and 8px rounding for container cards.",
+      "Do vary spacing for rhythm — sections use a 3–4rem vertical rhythm on a grid."
+    ],
+    "donts": [
+      "Don't use gradient text, glassmorphism, or decorative grid backgrounds.",
+      "Don't use side-stripe borders (border-left/right > 1px as accent on cards or callouts).",
+      "Don't add a second font family without a specific, limited purpose.",
+      "Don't use card grids where every card is identically sized with icon + heading + text.",
+      "Don't use tiny uppercase tracked kickers above every section.",
+      "Don't round cards beyond 8px.",
+      "Don't use box-shadows wider than 8px blur."
+    ]
+  }
+}
