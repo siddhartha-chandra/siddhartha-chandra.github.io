@@ -13,23 +13,6 @@
   --card-border-hover: var(--accent);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not(.light) {
-    --paper: #141210;
-    --ink: #ddd6ce;
-    --muted: #90847a;
-    --line: #2a2521;
-    --accent: #1a9a85;
-    --accent-2: #c45a3a;
-    --soft: #1e1a17;
-    --glow: rgba(196, 90, 58, 0.08);
-    --card-bg: rgba(20, 18, 16, 0.85);
-    --header-bg: rgba(20, 18, 16, 0.9);
-    --shadow-color: rgba(0, 0, 0, 0.25);
-    --card-border-hover: var(--accent);
-  }
-}
-
 :root.dark {
   --paper: #141210;
   --ink: #ddd6ce;
@@ -613,24 +596,6 @@ h2 {
   animation: theme-spin 0.4s ease;
 }
 
-.skip-link {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-  padding: 8px 16px;
-  background: var(--ink);
-  color: var(--paper);
-  font-size: 0.9rem;
-  font-weight: 600;
-  border-radius: 6px;
-  z-index: 1000;
-  text-decoration: none;
-}
-
-.skip-link:focus {
-  top: 8px;
-  left: 8px;
-}
 
 @media (max-width: 760px) {
   body {
