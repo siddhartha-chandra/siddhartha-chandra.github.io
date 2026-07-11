@@ -2,13 +2,13 @@
 name: Siddhartha Chandra
 description: Personal portfolio — warm, grounded, substantive.
 colors:
-  deep-teal: "#0c6b5f"
-  rust: "#8f3f28"
-  paper: "#fbfaf7"
-  ink: "#22201d"
-  muted: "#6b655d"
-  line: "#ded8cf"
-  soft: "#f1ece4"
+  deep-teal: "#075a4e"
+  rust: "#8a3018"
+  paper: "#faf8f5"
+  ink: "#1a1816"
+  muted: "#5c534a"
+  line: "#d4cdc2"
+  soft: "#ece4da"
 typography:
   display:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -94,26 +94,27 @@ The palette centers on a warm off-white paper background with deep teal as the a
 - Flat by default, shadows as response to interaction only.
 - Rounded edges are gentle but not exaggerated (8px containers, pill-shaped interactive elements).
 - Teal + rust read as deliberate, not accidental: one cool anchor, one warm counterpoint.
+- Night mode inverts the room: deep warm charcoal, brighter accents for contrast.
 
 ## 2. Colors
 
 A restrained, two-accent palette on a warm neutral ground.
 
 ### Primary
-- **Deep Teal** (`#0c6b5f`): Primary accent. Used for links, hover states on nav and buttons, strong heading emphasis, and the wordmark's semantic anchor. Signals competence and calm.
+- **Deep Teal** (`#075a4e`): Primary accent. Used for links, hover states on nav and buttons, strong heading emphasis, and the wordmark's semantic anchor. Signals competence and calm.
 
 ### Secondary
-- **Rust** (`#8f3f28`): Secondary accent. Used for section headings (h2), wordmark surname, hover color on links, and the kicker label. Provides warm counterpoint to the teal.
+- **Rust** (`#8a3018`): Secondary accent. Used for section headings (h2), wordmark surname, hover color on links, and the kicker label. Provides warm counterpoint to the teal.
 
 ### Neutral
-- **Paper** (`#fbfaf7`): Body background. A warm off-white — the room, not the decoration.
-- **Ink** (`#22201d`): Primary text color. A warm near-black, not pure #000.
-- **Muted** (`#6b655d`): Secondary text. Used for hero copy, date stamps, role durations, card body text. Hits ≥4.5:1 against Paper.
-- **Line** (`#ded8cf`): Borders and dividers. A tinted warm gray that separates without visual weight.
-- **Soft** (`#f1ece4`): Hover and tinted surface backgrounds. One step darker than Paper, used for hover states and blockquote backgrounds.
+- **Paper** (`#faf8f5`): Body background. A warm off-white — the room, not the decoration.
+- **Ink** (`#1a1816`): Primary text color. A warm near-black, not pure #000.
+- **Muted** (`#5c534a`): Secondary text. Used for hero copy, date stamps, role durations, card body text. Hits ≥4.5:1 against Paper.
+- **Line** (`#d4cdc2`): Borders and dividers. A tinted warm gray that separates without visual weight.
+- **Soft** (`#ece4da`): Hover and tinted surface backgrounds. One step darker than Paper, used for hover states and blockquote backgrounds.
 
 ### Named Rules
-**The Rarity Rule.** Deep Teal is used on ≤15% of any given surface. Its restraint is the point; increasing it dilutes its signal.
+**The Rarity Rule.** Deep Teal is used on ≤25% of any given surface. Its rarity is what gives it weight. Use it deliberately — on links, headings, card accents, and interactive states — but never let it carry the surface alone.
 
 ## 3. Typography
 
