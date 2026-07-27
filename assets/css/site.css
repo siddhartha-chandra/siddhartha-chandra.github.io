@@ -328,6 +328,14 @@ h2 {
   color: var(--accent);
 }
 
+[aria-labelledby="resume-publications"] .signal strong {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
 .signal span,
 .role > span,
 .post-card p,
