@@ -280,10 +280,9 @@ h2 {
   font-size: 0.95rem;
 }
 
-.role li strong {
+.role li u {
   color: var(--ink);
   font-weight: 400;
-  display: inline;
   text-decoration: underline;
   text-decoration-color: var(--deep-teal);
   text-underline-offset: 2px;

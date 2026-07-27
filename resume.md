@@ -42,7 +42,7 @@ layout: resume
       <strong>Senior Data Science Engineer</strong>
       <span>Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022 &nbsp;·&nbsp; US</span>
       <ul>
-        <li>Built a daily data deduplication pipeline using <strong>Spark on Airflow</strong> to process <strong>~10M entities</strong>, achieving <strong>10X speed gain</strong> over the prior system</li>
+        <li>Built a daily data deduplication pipeline using <u>Spark on Airflow</u> to process <u>~10M entities</u>, achieving <u>10X speed gain</u> over the prior system</li>
         <li>Co-developed ML system predicting deal win probability, close time, and customer revenue from B2B sales pipeline</li>
         <li>Established engineering foundations for the DS team: monitoring dashboards, CI/CD, legacy code migration, technical debt reduction</li>
         <li>Mentored developers and drove cross-team engineering practices</li>
@@ -53,7 +53,7 @@ layout: resume
       <strong>Data Scientist</strong>
       <span>x.ai &nbsp;·&nbsp; Oct 2014 – Sep 2016 &nbsp;·&nbsp; US</span>
       <ul>
-        <li>Built CRF-based email parser that outperformed Mailgun's production system by <strong>~15% F1</strong> on signature detection</li>
+        <li>Built CRF-based email parser that outperformed Mailgun's production system by <u>~15% F1</u> on signature detection</li>
         <li>Designed and maintained dashboards for annotation quality, model performance, and business KPIs</li>
       </ul>
     </div>
@@ -62,7 +62,7 @@ layout: resume
       <strong>CEO (Incubator)</strong>
       <span>SPTBI (Tech Incubator) &nbsp;·&nbsp; May 2024 – May 2025</span>
       <ul>
-        <li>Supported ~60 tech startups with a team of 6; managed <strong>~1.3M EUR fund</strong></li>
+        <li>Supported ~60 tech startups with a team of 6; managed <u>~1.3M EUR fund</u></li>
         <li>5 Strategic partnerships; Tech-arm setup</li>
       </ul>
     </div>
@@ -71,8 +71,8 @@ layout: resume
       <strong>Professor of Practice</strong>
       <span>Sardar Patel Institute of Technology &nbsp;·&nbsp; Aug 2023 – May 2025</span>
       <ul>
-        <li><strong>Teaching:</strong> Data Structures, Advanced Algorithms, Business Analytics (undergrad &amp; MTech)</li>
-        <li><strong>Mentorship:</strong> Advised 14 technical project groups; redesigned Data Structures syllabus as convenor</li>
+        <li><u>Teaching:</u> Data Structures, Advanced Algorithms, Business Analytics (undergrad &amp; MTech)</li>
+        <li><u>Mentorship:</u> Advised 14 technical project groups; redesigned Data Structures syllabus as convenor</li>
         <li>Papers published in international conferences: 5+</li>
       </ul>
     </div>
@@ -82,7 +82,7 @@ layout: resume
       <span>Sixladders &nbsp;·&nbsp; June 2024</span>
       <ul>
         <li>Architected EdTech platform and led engineering team</li>
-        <li>Projected <strong>0.43M EUR</strong> annual revenue</li>
+        <li>Projected <u>0.43M EUR</u> annual revenue</li>
       </ul>
     </div>
 
