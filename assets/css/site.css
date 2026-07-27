@@ -283,6 +283,7 @@ h2 {
 .role li strong {
   color: var(--ink);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .signal-list,

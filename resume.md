@@ -42,7 +42,7 @@ layout: resume
       <strong>Senior Data Science Engineer</strong>
       <span>Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022 &nbsp;·&nbsp; US</span>
       <ul>
-        <li>Built daily data deduplication pipeline using <strong>Spark on Airflow</strong> processing <strong>~10M entities</strong>, achieving a <strong>10X speed gain</strong> over the prior system</li>
+        <li>Built a daily data deduplication pipeline using <strong>Spark on Airflow</strong> to process <strong>~10M entities</strong>, achieving <strong>10X speed gain</strong> over the prior system</li>
         <li>Co-developed ML system predicting deal win probability, close time, and customer revenue from B2B sales pipeline</li>
         <li>Established engineering foundations for the DS team: monitoring dashboards, CI/CD, legacy code migration, technical debt reduction</li>
         <li>Mentored developers and drove cross-team engineering practices</li>
