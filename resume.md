@@ -30,7 +30,7 @@ layout: resume
 
     <div class="role">
       <strong>Senior IC (Backend & Data)</strong>
-      <span><span class="org-badge" style="background:#f47920">Z</span> Zalando SE &nbsp;·&nbsp; May 2025 – Present &nbsp;·&nbsp; Berlin</span>
+      <span>Zalando SE &nbsp;·&nbsp; May 2025 – Present &nbsp;·&nbsp; Berlin</span>
       <ul>
         <li>Architected cross-team multi-carrier injection hub improving logistics fulfilment coverage; increased avg. daily shipping by ~120 units for Netherlands &amp; Sweden</li>
         <li>Built tier-2 bridge application consolidating cross-system context for fulfilment planning</li>
@@ -40,7 +40,7 @@ layout: resume
 
     <div class="role">
       <strong>Senior Data Science Engineer</strong>
-      <span><span class="org-badge" style="background:#4A90D9">C</span> Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022 &nbsp;·&nbsp; US</span>
+      <span>Collective[i] &nbsp;·&nbsp; Oct 2016 – Apr 2022 &nbsp;·&nbsp; US</span>
       <ul>
         <li>Built a daily data deduplication pipeline using <strong>Spark on Airflow</strong> to process <strong>~10M entities</strong>, achieving <strong>10X speed gain</strong> over the prior system</li>
         <li>Co-developed ML system predicting deal win probability, close time, and customer revenue from B2B sales pipeline</li>
@@ -51,7 +51,7 @@ layout: resume
 
     <div class="role">
       <strong>Data Scientist</strong>
-      <span><span class="org-badge" style="background:#1a1a2e">X</span> x.ai &nbsp;·&nbsp; Oct 2014 – Sep 2016 &nbsp;·&nbsp; US</span>
+      <span>x.ai &nbsp;·&nbsp; Oct 2014 – Sep 2016 &nbsp;·&nbsp; US</span>
       <ul>
         <li>Built CRF-based email parser that outperformed Mailgun's production system by <strong>~15% F1</strong> on signature detection</li>
         <li>Designed and maintained dashboards for annotation quality, model performance, and business KPIs</li>
@@ -60,7 +60,7 @@ layout: resume
 
     <div class="role">
       <strong>CEO (Incubator)</strong>
-      <span><span class="org-badge" style="background:#075a4e">T</span> SPTBI (Tech Incubator) &nbsp;·&nbsp; May 2024 – May 2025</span>
+      <span>SPTBI (Tech Incubator) &nbsp;·&nbsp; May 2024 – May 2025</span>
       <ul>
         <li>Supported ~60 tech startups with a team of 6; managed <strong>~1.3M EUR fund</strong></li>
         <li>5 Strategic partnerships; Tech-arm setup</li>
@@ -69,7 +69,7 @@ layout: resume
 
     <div class="role">
       <strong>Professor of Practice</strong>
-      <span><span class="org-badge" style="background:#8a3018">S</span> Sardar Patel Institute of Technology &nbsp;·&nbsp; Aug 2023 – May 2025</span>
+      <span>Sardar Patel Institute of Technology &nbsp;·&nbsp; Aug 2023 – May 2025</span>
       <ul>
         <li><strong>Teaching:</strong> Data Structures, Advanced Algorithms, Business Analytics (undergrad &amp; MTech)</li>
         <li><strong>Mentorship:</strong> Advised 14 technical project groups; redesigned Data Structures syllabus as convenor</li>
@@ -79,9 +79,10 @@ layout: resume
 
     <div class="role">
       <strong>Co-founder</strong>
-      <span><span class="org-badge" style="background:#5c534a">S</span> Sixladders &nbsp;·&nbsp; June 2024</span>
+      <span>Sixladders &nbsp;·&nbsp; June 2024</span>
       <ul>
-        <li>Architected EdTech platform and led engineering team; projected <strong>0.43M EUR</strong> annual revenue</li>
+        <li>Architected EdTech platform and led engineering team</li>
+        <li>Projected <strong>0.43M EUR</strong> annual revenue</li>
       </ul>
     </div>
 
@@ -119,11 +120,11 @@ layout: resume
   <div class="timeline">
     <div class="role">
       <strong>MS in Computer Science</strong>
-      <span><span class="org-badge" style="background:#9dd5e4;color:#1a1816">C</span> Columbia University, NY &nbsp;·&nbsp; Sep 2013 - May 2014</span>
+      <span>Columbia University, NY &nbsp;·&nbsp; Sep 2013 - May 2014</span>
     </div>
     <div class="role">
       <strong>BE in Information Technology</strong>
-      <span><span class="org-badge" style="background:#6b4c8a">M</span> Sardar Patel College of Engg, Mumbai University, Mumbai &nbsp;·&nbsp; Aug 2004 - May 2008</span>
+      <span>Sardar Patel College of Engg, Mumbai University, Mumbai &nbsp;·&nbsp; Aug 2004 - May 2008</span>
     </div>
   </div>
 </section>
