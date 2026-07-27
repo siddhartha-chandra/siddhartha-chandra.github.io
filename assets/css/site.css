@@ -282,7 +282,11 @@ h2 {
 
 .role li strong {
   color: var(--ink);
-  font-weight: 600;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: var(--deep-teal);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
   white-space: nowrap;
 }
 
