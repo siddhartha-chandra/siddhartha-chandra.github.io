@@ -353,6 +353,21 @@ h2 {
   color: var(--muted);
 }
 
+.org-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.65rem;
+  font-weight: 650;
+  color: #fff;
+  margin-right: 6px;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
 .resume-subtitle {
   margin: 0;
   color: var(--accent);
