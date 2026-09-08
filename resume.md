@@ -108,9 +108,13 @@ layout: resume
       <strong>Dermatological AI</strong>
       <span><a href="https://ieeexplore.ieee.org/document/11368166">Wavelet-Enhanced Transformer Architecture for Dermatological Image Analysis</a></span>
     </div>
-    <div class="signal" style="grid-column: 1 / -1;">
+    <div class="signal">
       <strong>Risk Prediction</strong>
       <span><a href="https://ieeexplore.ieee.org/document/11448178">Comparative Analysis of Optimized Machine Learning and Deep Learning Models for Credit Risk Prediction</a></span>
+    </div>
+    <div class="signal">
+      <strong>Opinion Mining</strong>
+      <span><a href="https://ieeexplore.ieee.org/document/11608881">Revify: An Agentic Opinion Mining System for Product Reviews</a></span>
     </div>
   </div>
 </section>
