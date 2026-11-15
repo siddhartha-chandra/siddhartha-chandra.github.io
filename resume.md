@@ -89,6 +89,16 @@ layout: resume
   </div>
 </section>
 
+<section class="section-grid" aria-labelledby="resume-projects">
+  <h2 id="resume-projects">Selected Projects</h2>
+  <div class="signal-list">
+    <div class="signal">
+      <strong><a href="https://github.com/siddhartha-chandra/rubiks_solver-jev" target="_blank" rel="noopener noreferrer">Rubik's Solver · RLCD</a></strong>
+      <span>Reinforcement Learning for Calibrated Decisions (RLCD) solver steering 4 classic algorithms with Jev &amp; Laya decision models. Features real-time state transition graph persistence, custom face schemes, and an interactive 3D hemisphere manifold.</span>
+    </div>
+  </div>
+</section>
+
 <section class="section-grid" aria-labelledby="resume-publications">
   <h2 id="resume-publications">Select Research & Publications</h2>
   <div class="signal-list">
