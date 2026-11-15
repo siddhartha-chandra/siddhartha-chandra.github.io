@@ -20,6 +20,7 @@
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>About</a>
+        <a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects/' %}aria-current="page"{% endif %}>Projects</a>
         <a href="{{ '/resume/' | relative_url }}" {% if page.url contains '/resume/' %}aria-current="page"{% endif %}>Resume</a>
         <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">GitHub</a>
