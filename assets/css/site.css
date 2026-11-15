@@ -369,12 +369,11 @@ h2 {
 }
 
 .project-icon {
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--soft);
-  color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -382,8 +381,8 @@ h2 {
 }
 
 .project-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .project-meta {
@@ -395,6 +394,7 @@ h2 {
   font-weight: 720;
   font-size: 1.15rem;
   line-height: 1.25;
+  color: var(--ink);
 }
 
 .project-title a {

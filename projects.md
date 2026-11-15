@@ -11,27 +11,27 @@ description: Selected software systems, machine learning engineering, and algori
     <article class="project-card">
       <div class="project-header">
         <div class="project-icon" aria-hidden="true">
-          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="16,2 28,9 16,16 4,9" fill="currentColor" fill-opacity="0.18" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            <line x1="12" y1="4.33" x2="20" y2="13.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="8" y1="6.67" x2="24" y2="11.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="8" y1="11.33" x2="24" y2="6.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="12" y1="13.67" x2="20" y2="4.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <polygon points="4,9 16,16 16,30 4,23" fill="currentColor" fill-opacity="0.32" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            <line x1="8" y1="11.33" x2="8" y2="25.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="12" y1="13.67" x2="12" y2="27.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="4" y1="13.67" x2="16" y2="20.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="4" y1="18.33" x2="16" y2="25.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <polygon points="16,16 28,9 28,23 16,30" fill="currentColor" fill-opacity="0.45" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            <line x1="20" y1="13.67" x2="20" y2="27.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="24" y1="11.33" x2="24" y2="25.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="16" y1="20.67" x2="28" y2="13.67" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
-            <line x1="16" y1="25.33" x2="28" y2="18.33" stroke="currentColor" stroke-width="1" stroke-opacity="0.4"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="12,2.5 21,7 12,11.5 3,7" fill="var(--accent)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+            <polygon points="12,11.5 21,7 21,16.5 12,21" fill="var(--rust)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+            <polygon points="3,7 12,11.5 12,21 3,16.5" fill="var(--soft)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+            <line x1="6" y1="5.5" x2="15" y2="10" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="9" y1="4" x2="18" y2="8.5" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="6" y1="8.5" x2="15" y2="4" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="9" y1="10" x2="18" y2="5.5" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="15" y1="10" x2="15" y2="19.5" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="18" y1="8.5" x2="18" y2="18" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="12" y1="14.67" x2="21" y2="10.17" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="12" y1="17.83" x2="21" y2="13.33" stroke="var(--card-bg)" stroke-width="0.8"/>
+            <line x1="6" y1="8.5" x2="6" y2="18" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
+            <line x1="9" y1="10" x2="9" y2="19.5" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
+            <line x1="3" y1="10.17" x2="12" y2="14.67" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
+            <line x1="3" y1="13.33" x2="12" y2="17.83" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
           </svg>
         </div>
         <div class="project-meta">
           <p class="project-kicker">Reinforcement Learning · Decision Models</p>
-          <h2 class="project-title"><a href="https://github.com/siddhartha-chandra/rubiks_solver-jev" target="_blank" rel="noopener noreferrer">Rubik's Solver · RLCD</a></h2>
+          <h2 class="project-title">Rubik's Solver · RLCD</h2>
         </div>
       </div>
       <p class="project-desc">
@@ -44,9 +44,6 @@ description: Selected software systems, machine learning engineering, and algori
           <span class="project-tag">Three.js</span>
           <span class="project-tag">RLCD</span>
           <span class="project-tag">PostgreSQL</span>
-        </div>
-        <div class="project-links">
-          <a class="project-link" href="https://github.com/siddhartha-chandra/rubiks_solver-jev" target="_blank" rel="noopener noreferrer">View repository &rarr;</a>
         </div>
       </div>
     </article>
