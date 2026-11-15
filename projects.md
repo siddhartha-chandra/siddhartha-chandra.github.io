@@ -10,23 +10,33 @@ description: Selected software systems, machine learning engineering, and algori
   <div class="signal-list">
     <article class="project-card">
       <div class="project-header">
-        <div class="project-icon" aria-hidden="true">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="12,2.5 21,7 12,11.5 3,7" fill="var(--accent)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
-            <polygon points="12,11.5 21,7 21,16.5 12,21" fill="var(--rust)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
-            <polygon points="3,7 12,11.5 12,21 3,16.5" fill="var(--soft)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
-            <line x1="6" y1="5.5" x2="15" y2="10" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="9" y1="4" x2="18" y2="8.5" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="6" y1="8.5" x2="15" y2="4" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="9" y1="10" x2="18" y2="5.5" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="15" y1="10" x2="15" y2="19.5" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="18" y1="8.5" x2="18" y2="18" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="12" y1="14.67" x2="21" y2="10.17" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="12" y1="17.83" x2="21" y2="13.33" stroke="var(--card-bg)" stroke-width="0.8"/>
-            <line x1="6" y1="8.5" x2="6" y2="18" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
-            <line x1="9" y1="10" x2="9" y2="19.5" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
-            <line x1="3" y1="10.17" x2="12" y2="14.67" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
-            <line x1="3" y1="13.33" x2="12" y2="17.83" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.3"/>
+        <div class="project-icon" aria-hidden="true" title="Rubik's Solver">
+          <svg class="rubik-cube-svg" width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Grounded lower 2 layers -->
+            <g class="rubik-base">
+              <polygon points="5,12.5 16,18 16,26 5,20.5" fill="var(--soft)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              <polygon points="16,18 27,12.5 27,20.5 16,26" fill="var(--rust)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              <line x1="5" y1="16.5" x2="16" y2="22" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.35"/>
+              <line x1="8.67" y1="14.33" x2="8.67" y2="22.33" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.35"/>
+              <line x1="12.33" y1="16.17" x2="12.33" y2="24.17" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.35"/>
+              <line x1="16" y1="22" x2="27" y2="16.5" stroke="var(--card-bg)" stroke-width="0.8"/>
+              <line x1="19.67" y1="16.17" x2="19.67" y2="24.17" stroke="var(--card-bg)" stroke-width="0.8"/>
+              <line x1="23.33" y1="14.33" x2="23.33" y2="22.33" stroke="var(--card-bg)" stroke-width="0.8"/>
+            </g>
+            <!-- Animated top U-slice (lifts and twists on hover) -->
+            <g class="rubik-u-slice">
+              <polygon points="16,3 27,8.5 16,14 5,8.5" fill="var(--accent)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              <polygon points="5,8.5 16,14 16,17.5 5,12" fill="var(--soft)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              <polygon points="16,14 27,8.5 27,12 16,17.5" fill="var(--rust)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              <line x1="8.67" y1="6.67" x2="19.67" y2="12.17" stroke="var(--card-bg)" stroke-width="0.85"/>
+              <line x1="12.33" y1="4.83" x2="23.33" y2="10.33" stroke="var(--card-bg)" stroke-width="0.85"/>
+              <line x1="8.67" y1="10.33" x2="19.67" y2="4.83" stroke="var(--card-bg)" stroke-width="0.85"/>
+              <line x1="12.33" y1="12.17" x2="23.33" y2="6.67" stroke="var(--card-bg)" stroke-width="0.85"/>
+              <line x1="8.67" y1="10.33" x2="8.67" y2="13.83" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.35"/>
+              <line x1="12.33" y1="12.17" x2="12.33" y2="15.67" stroke="currentColor" stroke-width="0.8" stroke-opacity="0.35"/>
+              <line x1="19.67" y1="12.17" x2="19.67" y2="15.67" stroke="var(--card-bg)" stroke-width="0.85"/>
+              <line x1="23.33" y1="10.33" x2="23.33" y2="13.83" stroke="var(--card-bg)" stroke-width="0.85"/>
+            </g>
           </svg>
         </div>
         <div class="project-meta">
