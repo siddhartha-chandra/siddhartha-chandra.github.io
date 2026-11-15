@@ -397,19 +397,19 @@ h2 {
   transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Individual tile styling */
+/* Individual tile styling - Green and Red face colours, White top */
 .rubik-tile {
   transition: fill 0.4s ease, opacity 0.4s ease;
 }
 
-.tile-teal { fill: var(--accent); }
-.tile-rust { fill: var(--rust); }
-.tile-neutral { fill: var(--soft); }
+.tile-white { fill: #f8fafc; }
+.tile-green { fill: #16a34a; }
+.tile-red   { fill: #dc2626; }
 
 /* Jumbled state at rest */
-.tile-jumbled-rust { fill: var(--rust); }
-.tile-jumbled-teal { fill: var(--accent); }
-.tile-jumbled-neutral { fill: var(--soft); }
+.tile-jumbled-green { fill: #16a34a; }
+.tile-jumbled-red   { fill: #dc2626; }
+.tile-jumbled-white { fill: #f8fafc; }
 
 /* Slice groups for physical rotation */
 .cube-slice-r {
@@ -441,23 +441,25 @@ h2 {
 }
 
 /* Scrambled tiles resolve into uniform solved faces */
-.project-icon:hover .tile-top.tile-jumbled-rust,
-.project-card:hover .project-icon .tile-top.tile-jumbled-rust {
-  animation: resolve-to-teal 0.85s 0.35s forwards;
+.project-icon:hover .tile-top.tile-jumbled-red,
+.project-card:hover .project-icon .tile-top.tile-jumbled-red,
+.project-icon:hover .tile-top.tile-jumbled-green,
+.project-card:hover .project-icon .tile-top.tile-jumbled-green {
+  animation: resolve-to-white 0.85s 0.35s forwards;
 }
 
-.project-icon:hover .tile-right.tile-jumbled-teal,
-.project-card:hover .project-icon .tile-right.tile-jumbled-teal,
-.project-icon:hover .tile-right.tile-jumbled-neutral,
-.project-card:hover .project-icon .tile-right.tile-jumbled-neutral {
-  animation: resolve-to-rust 0.65s 0.2s forwards;
+.project-icon:hover .tile-right.tile-jumbled-green,
+.project-card:hover .project-icon .tile-right.tile-jumbled-green,
+.project-icon:hover .tile-right.tile-jumbled-white,
+.project-card:hover .project-icon .tile-right.tile-jumbled-white {
+  animation: resolve-to-red 0.65s 0.2s forwards;
 }
 
-.project-icon:hover .tile-left.tile-jumbled-teal,
-.project-card:hover .project-icon .tile-left.tile-jumbled-teal,
-.project-icon:hover .tile-left.tile-jumbled-rust,
-.project-card:hover .project-icon .tile-left.tile-jumbled-rust {
-  animation: resolve-to-neutral 0.65s 0.3s forwards;
+.project-icon:hover .tile-left.tile-jumbled-red,
+.project-card:hover .project-icon .tile-left.tile-jumbled-red,
+.project-icon:hover .tile-left.tile-jumbled-white,
+.project-card:hover .project-icon .tile-left.tile-jumbled-white {
+  animation: resolve-to-green 0.65s 0.3s forwards;
 }
 
 @keyframes rubik-solve-r {
@@ -472,19 +474,19 @@ h2 {
   100% { transform: translateY(0) rotate(0deg); }
 }
 
-@keyframes resolve-to-teal {
-  0% { fill: var(--rust); }
-  100% { fill: var(--accent); }
+@keyframes resolve-to-white {
+  0% { fill: inherit; }
+  100% { fill: #f8fafc; }
 }
 
-@keyframes resolve-to-rust {
-  0% { fill: var(--accent); }
-  100% { fill: var(--rust); }
+@keyframes resolve-to-red {
+  0% { fill: inherit; }
+  100% { fill: #dc2626; }
 }
 
-@keyframes resolve-to-neutral {
-  0% { fill: var(--accent); }
-  100% { fill: var(--soft); }
+@keyframes resolve-to-green {
+  0% { fill: inherit; }
+  100% { fill: #16a34a; }
 }
 
 .project-meta {
