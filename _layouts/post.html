@@ -3,9 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  <a class="back-link" href="{{ '/blog/' | relative_url }}">Back to blog</a>
+  <a class="back-link" href="{{ '/blog/' | relative_url }}">
+    <svg class="icon-back" width="13" height="13" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+      <path d="M9.5 6H2.5M5.5 3L2.5 6l3 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Back to blog</span>
+  </a>
   <header class="post-header">
-    <p class="kicker">{{ page.date | date: '%B %-d, %Y' }}</p>
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
     <h1>{{ page.title }}</h1>
     {% if page.description %}
     <p class="post-description">{{ page.description }}</p>

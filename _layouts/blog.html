@@ -3,7 +3,6 @@ layout: default
 ---
 
 <section class="page-hero" aria-labelledby="blog-title">
-  <p class="kicker">Blog</p>
   <h1 id="blog-title">Notes from the workbench.</h1>
   <p class="page-intro">
     Short essays, technical notes, and thoughts worth keeping in public.
@@ -18,7 +17,16 @@ layout: default
     {% for post in site.posts %}
     <article class="post-card">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      {% if post.redirect %}
+      <a href="{{ post.redirect }}" target="_blank" rel="noopener noreferrer">
+        {{ post.title }}
+        <svg class="icon-external" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M3.5 2.5h6v6M9.2 2.8L2.5 9.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      {% else %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% endif %}
       {% if post.description %}
       <p>{{ post.description }}</p>
       {% endif %}

@@ -5,6 +5,7 @@ p0_count: 2
 p1_count: 3
 timestamp: 2026-07-11T21-56-31Z
 slug: layouts-home-html
+closed: true
 ---
 ## Design Health Score
 
