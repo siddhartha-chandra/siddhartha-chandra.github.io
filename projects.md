@@ -31,7 +31,7 @@ description: Selected software systems, machine learning engineering, and algori
         </div>
         <div class="project-meta">
           <p class="project-kicker">Reinforcement Learning · Decision Models</p>
-          <h2 class="project-title">Rubik's Solver · RLCD</h2>
+          <h2 class="project-title"><a href="https://rubiks-solver.pro/" target="_blank" rel="noopener noreferrer">Rubik's Solver · RLCD</a></h2>
         </div>
       </div>
       <p class="project-desc">
@@ -44,6 +44,9 @@ description: Selected software systems, machine learning engineering, and algori
           <span class="project-tag">Three.js</span>
           <span class="project-tag">RLCD</span>
           <span class="project-tag">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://rubiks-solver.pro/" target="_blank" rel="noopener noreferrer">Launch app &rarr;</a>
         </div>
       </div>
     </article>
