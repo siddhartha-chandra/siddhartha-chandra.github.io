@@ -12,9 +12,9 @@ colors:
 typography:
   display:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(2.65rem, 7vw, 5.2rem)"
-    fontWeight: 720
-    lineHeight: 1.1
+    fontSize: "clamp(3.5rem, 8.5vw, 7.25rem)"
+    fontWeight: 650
+    lineHeight: 0.98
   headline:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "1.1rem"
@@ -27,13 +27,13 @@ typography:
     lineHeight: 1.3
   body:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(1rem, 1.45vw, 1.18rem)"
+    fontSize: "clamp(1rem, 1.3vw, 1.125rem)"
     fontWeight: 400
     lineHeight: 1.6
   label:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "0.92rem"
-    fontWeight: 650
+    fontWeight: 550
     letterSpacing: "normal"
   small:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -54,7 +54,7 @@ components:
     backgroundColor: "rgba(251, 250, 247, 0.74)"
     textColor: "{colors.ink}"
     rounded: "{rounded.full}"
-    padding: "0.35rem 0.72rem"
+    padding: "0.65rem 1.1rem"
     border: "1px solid {colors.line}"
   button-link-hover:
     backgroundColor: "{colors.soft}"
@@ -64,7 +64,7 @@ components:
   nav-link:
     textColor: "{colors.ink}"
     rounded: "{rounded.full}"
-    padding: "0.35rem 0.72rem"
+    padding: "0.65rem 1.1rem"
     border: "1px solid {colors.line}"
   nav-link-hover:
     backgroundColor: "{colors.soft}"
@@ -114,7 +114,7 @@ A restrained, two-accent palette on a warm neutral ground.
 - **Soft** (`#ece4da`): Hover and tinted surface backgrounds. One step darker than Paper, used for hover states and blockquote backgrounds.
 
 ### Named Rules
-**The Rarity Rule.** Deep Teal is used on ≤25% of any given surface. Its rarity is what gives it weight. Use it deliberately — on links, headings, card accents, and interactive states — but never let it carry the surface alone.
+**The Rarity Rule.** Deep Teal is used on ≤15% of any given surface. Its rarity is what gives it weight. Use it deliberately — on links, headings, card accents, and interactive states — but never let it carry the surface alone.
 
 ## 3. Typography
 
@@ -124,13 +124,13 @@ A restrained, two-accent palette on a warm neutral ground.
 **Character:** A single-family system-sans approach. Reliability and performance over personality — the font disappears so the content speaks. The weight range (400–760) provides enough hierarchy without a second face.
 
 ### Hierarchy
-- **Display** (720, `clamp(2.65rem, 7vw, 5.2rem)`, 1.1): Hero H1. Capped at 14ch width. Used only on the home page hero.
-- **Headline** (720, `1.1rem–1.15rem`, 1.1): Card and role title headings; resume section h2/h3. Runs at the top of each signal/role/post-card component.
+- **Display** (650, `clamp(3.5rem, 8.5vw, 7.25rem)`, 0.98): Three-line home hero H1; mobile uses `clamp(2rem, calc(1.5rem + 8vw), 6rem)` so it responds to both viewport and text size. Inner-page H1s use weight 600, `clamp(2.75rem, 6.5vw, 5rem)`, and 1.06 line height. Long words can wrap instead of overflowing.
+- **Headline** (600, `1.125rem–1.2rem`, 1.25): Discipline and experience labels. Project titles retain weight 720; blog links use `clamp(1.35rem, 2.5vw, 1.75rem)`.
 - **Title** (600, `1.05rem`, 1.3): Resume subtitle and section subheads.
-- **Body** (400, `clamp(1rem, 1.45vw, 1.18rem)`, 1.6): All prose content. Max line length 42rem (~65–70ch).
-- **Label** (650, `0.92rem`, 1): Navigation links, button text, profile note, tags. Paired with pill-shaped interactive elements.
+- **Body** (400, `clamp(1rem, 1.3vw, 1.125rem)`, 1.6): Prose content, with a maximum line length of 42rem. Intro copy uses `clamp(1rem, 1.4vw, 1.125rem)` and a 35rem measure.
+- **Label** (550, `0.92rem`, 1): Navigation links and button text. Pill-shaped targets are at least 44px tall; mobile navigation can reflow when text is enlarged.
 - **Small label** (600, `0.8rem–0.9rem`): Meta text, role dates, table headers, footer text. Lowered emphasis.
-- **Kicker** (750, `0.78rem`, uppercase `0.12em` tracking): Section kickers used sparingly — hero and page titles only.
+- **Kicker** (550, `0.85rem`, sentence case): One quiet context line above the home hero. No uppercase tracking.
 
 ### Named Rules
 **The One-Stack Rule.** Never introduce a second font family. The system stack handles all roles. If a serif or display face is ever added, it must be for a deliberate, limited purpose (e.g., pull quotes or the wordmark), not as a general hierarchy tool.
@@ -157,9 +157,11 @@ Flat by default. Depth is conveyed through borders (1px `var(--line)`) and tonal
 - **Style:** Ink text, 1px Line border. Hover shifts to Soft background, Deep Teal border and text.
 - **Active:** `aria-current="page"` uses the same hover treatment to mark the current page.
 
-### Cards / Containers
+### Lists and Cards
+
+Disciplines, experience, publications, and blog entries are flat editorial rows separated by fine rules, not repeated cards. Publication labels have their own wrapping column. The interactive project remains a bordered card:
 - **Corner Style:** Gentle rounding (8px).
-- **Background:** Paper at 0.72 opacity (`rgba(251,250,247,0.72)`) — enough to separate from the body background while staying transparent to the grid pattern beneath.
+- **Background:** Paper at 0.74 opacity (`rgba(251,250,247,0.74)`) — subtly separated from the flat page background, with no grid or decorative glow.
 - **Border:** 1px solid Line.
 - **Shadow Strategy:** None at rest. On hover, a soft shadow (`0 2px 8px rgba(0,0,0,0.08)`) lifts the card.
 - **Internal Padding:** 2rem all sides.
@@ -169,8 +171,8 @@ Flat by default. Depth is conveyed through borders (1px `var(--line)`) and tonal
 - **Role:** Site identity marker, not a link back to home (anchor wraps it for accessibility, but the visual behaves as a static mark).
 
 ### Profile Panel
-- **Image:** Rounded corners (8px), 1px Line border, slight saturation and contrast adjustment for print-to-screen matching.
-- **Caption:** Muted color, smaller body size (0.92rem). Runs below the photo as a personal note.
+- **Image:** 4:5 crop, rounded corners (8px), 1px Line border, and restrained saturation. On mobile, a 120px portrait sits beside its caption.
+- **Caption:** Muted personal note at 0.8rem on desktop and 0.75rem on mobile.
 
 ### Tags / Chips (Tools section)
 - **Style:** Inline spans, no container styling. Inherit body color, no background, no border. Deliberately minimal — tools are listed, not packaged.
