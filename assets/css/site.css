@@ -111,6 +111,7 @@ h3 {
   line-height: 1.1;
   font-weight: 720;
   text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 
 h1 {
@@ -151,7 +152,7 @@ h2 {
 
 .site-footer {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.6fr);
   align-items: start;
   gap: 3rem;
   padding: 48px 0 24px;
@@ -171,7 +172,9 @@ h2 {
 
 .social-links {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.75rem;
 }
 
 .social-links a {
@@ -997,7 +1000,7 @@ a:hover .icon-back {
   }
 
   .home-hero h1 {
-    font-size: clamp(3.5rem, 14vw, 6rem);
+    font-size: clamp(2rem, 14vw, 6rem);
   }
 
   .home-hero .actions {
@@ -1062,6 +1065,11 @@ a:hover .icon-back {
 
   .profile-note {
     font-size: 0.75rem;
+    overflow-wrap: anywhere;
+  }
+
+  .social-links {
+    justify-content: flex-start;
   }
 
   .page-hero,
