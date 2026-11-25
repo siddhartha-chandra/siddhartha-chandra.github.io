@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site.title }} — Systems, data &amp; a human touch</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          document.documentElement.classList.toggle(
+            "dark",
+            t === "dark" ||
+              (!t && matchMedia("(prefers-color-scheme:dark)").matches),
+          );
+        } catch (e) {
+          document.documentElement.classList.toggle(
+            "dark",
+            matchMedia("(prefers-color-scheme:dark)").matches,
+          );
+        }
+      })();
+    </script>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/expressive.css' | relative_url }}"
+    />
+    <script
+      src="{{ '/assets/js/expressive.js' | relative_url }}"
+      defer
+    ></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="shell masthead">
+      <a
+        class="identity"
+        href="{{ '/' | relative_url }}"
+        aria-label="Siddhartha Chandra home"
+        >siddhartha<br />chandra<span aria-hidden="true">—</span></a
+      >
+      <nav class="navigation" aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}" aria-current="page">About</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/resume/' | relative_url }}">Resume</a>
+        <a href="{{ '/blog/' | relative_url }}">Writing</a>
+      </nav>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Switch to dark theme"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor" />
+        </svg>
+      </button>
+    </header>
+    <main id="main-content">
+      <section class="shell hero" aria-labelledby="intro">
+        <div class="hero-eyebrow">
+          <p>Engineer. Educator. Builder.</p>
+          <p>
+            <span class="location-dot" aria-hidden="true"></span>Based in Berlin
+          </p>
+        </div>
+        <div class="hero-stage">
+          <h1 id="intro">
+            A mind for<br />systems.<br /><span class="human-line"
+              >A <em>human</em> touch.</span
+            >
+          </h1>
+          <figure class="portrait-art">
+            <svg
+              class="bloom"
+              viewBox="0 0 400 400"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M200 22C240-18 290 8 282 65C340 39 380 79 348 130C411 137 423 191 372 219C421 257 394 311 336 302C353 365 305 394 261 352C243 416 185 416 171 355C125 399 79 364 100 310C40 325 11 277 57 237C-5 216 3 158 67 150C30 102 69 58 121 84C117 24 171 5 200 22Z"
+              />
+            </svg>
+            <div class="portrait-print">
+              <img
+                src="{{ '/assets/img/prof_pic.jpg' | relative_url }}"
+                alt="Siddhartha Chandra outdoors in autumn"
+                width="3024"
+                height="4032"
+              /><span class="print-note" aria-hidden="true"
+                >Siddhartha Chandra · Berlin</span
+              >
+            </div>
+            <figcaption>
+              <span class="caption-line" aria-hidden="true"></span>The person
+              behind the systems.
+            </figcaption>
+          </figure>
+          <svg
+            class="handstroke"
+            viewBox="0 0 440 40"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M7 26C100 6 275 3 431 12M92 34C190 18 309 18 376 23"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="hero-bottom">
+          <!-- Biography and experience are existing copy from _layouts/home.html. -->
+          <p>
+            I build systems, make sense of data, and help people do their best
+            work.<br />15+ years across engineering, AI, teaching, and startup
+            building.
+          </p>
+          <a
+            class="connect-link"
+            href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Let’s connect on LinkedIn (opens in new tab)"
+            >Let’s connect <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <a class="scroll-note" href="#selected-work"
+          ><span aria-hidden="true">↓</span> A few things I’ve put into the
+          world</a
+        >
+      </section>
+
+      <section
+        class="work-section"
+        id="selected-work"
+        aria-labelledby="work-title"
+      >
+        <div class="shell">
+          <div class="section-heading">
+            <h2 id="work-title">
+              Different disciplines.<br />One curious mind.
+            </h2>
+            <span>Selected work &amp; ideas / 01—03</span>
+          </div>
+          <div class="work-grid">
+            <a
+              class="work-item rubik-work"
+              href="{{ '/projects/' | relative_url }}"
+            >
+              <div class="work-art cube-art" aria-hidden="true">
+                <span class="art-index">01 / A STUDY IN POSSIBILITIES</span>
+                <div class="cube-composition">
+                  <div class="cube-face">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+                    ><i></i>
+                  </div>
+                  <svg class="cube-swoop" viewBox="0 0 300 300" fill="none">
+                    <path
+                      d="M40 152C-10 40 170 0 240 64C318 135 226 285 110 248"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="m109 232-2 19 20 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <span class="art-footnote">Logic at play.</span>
+              </div>
+              <div class="work-caption">
+                <div>
+                  <span>Algorithms · Interactive</span>
+                  <h3>Rubik’s Solver · RLCD</h3>
+                  <p>
+                    A Rubik’s cube solver that treats move selection as
+                    calibrated decisions.
+                  </p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+            <a
+              class="work-item data-work"
+              href="{{ '/resume/' | relative_url }}"
+            >
+              <div class="work-art type-art" aria-hidden="true">
+                <span class="art-index">02 / LESS WAITING. MORE DOING.</span
+                ><strong>10<span>×</span></strong
+                ><span class="art-footnote">Faster, by design.</span>
+              </div>
+              <!-- The ~10M entities and 10X result are from the Collective[i] role in resume.md. -->
+              <div class="work-caption">
+                <div>
+                  <span>Data engineering · Production</span>
+                  <h3>Better systems. Real impact.</h3>
+                  <p>
+                    Daily data deduplication for ~10M entities. A 10X speed gain
+                    over the prior system.
+                  </p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </div>
+          <a class="writing-link" href="{{ '/blog/' | relative_url }}"
+            ><span>03 / Notes from the workbench</span>
+            <h3>Thinking out loud.</h3>
+            <p>On data, systems, and starting light.</p>
+            <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+
+      <section class="shell about-section" aria-labelledby="about-title">
+        <div>
+          <span class="section-label">A little more human</span>
+          <h2 id="about-title">Not just<br />a <em>job title.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My work has moved between India, the US, and Germany, where
+            engineering craft meets messy real-world problems.
+          </p>
+          <p>
+            Away from the screen: long-distance running, singing, board games,
+            and photographs that notice simple things.
+          </p>
+          <a class="inline-link" href="{{ '/resume/' | relative_url }}"
+            >The longer story <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      {{ content }}
+    </main>
+    <footer class="shell footer">
+      <p>
+        Good things start<br />with a
+        <a href="mailto:{{ site.email }}"
+          ><em>hello.</em><span aria-hidden="true">↗</span></a
+        >
+      </p>
+      <div class="footer-bottom">
+        <span>© {{ 'now' | date: '%Y' }} Siddhartha Chandra</span>
+        <nav aria-label="Connect">
+          <a
+            href="https://github.com/{{ site.github_username }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile (opens in new tab)"
+            >GitHub ↗</a
+          ><a
+            href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile (opens in new tab)"
+            >LinkedIn ↗</a
+          ><a href="mailto:{{ site.email }}">Email ↗</a>
+        </nav>
+        <span>Made of logic &amp; curiosity.</span>
+      </div>
+    </footer>
+  </body>
+</html>
