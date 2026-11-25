@@ -957,7 +957,7 @@ a:hover .icon-back {
 
   .site-nav {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 4em), 1fr));
     grid-column: 1 / -1;
     grid-row: 2;
     justify-content: space-between;
