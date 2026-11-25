@@ -473,13 +473,14 @@
 
     var pointerLockedByClick = false;
 
-    card.addEventListener("mouseenter", function () {
-      if (pointerLockedByClick) return;
+    card.addEventListener("pointerenter", function (ev) {
+      if (ev.pointerType !== "mouse" || pointerLockedByClick) return;
       desiredMode = "solved";
       scheduleConvergence(0, 240);
     });
 
-    card.addEventListener("mouseleave", function () {
+    card.addEventListener("pointerleave", function (ev) {
+      if (ev.pointerType !== "mouse") return;
       pointerLockedByClick = false;
       desiredMode = "scrambled";
       scheduleConvergence(0, 240);
@@ -488,7 +489,7 @@
     stage.addEventListener("click", function (ev) {
       ev.preventDefault();
       ev.stopPropagation();
-      pointerLockedByClick = true;
+      if (!ev.pointerType || ev.pointerType === "mouse") pointerLockedByClick = true;
       if (desiredMode === "solved" && history.length === 0) {
         presetIndex = (presetIndex + 1) % SCRAMBLE_PRESETS.length;
         targetScramble = SCRAMBLE_PRESETS[presetIndex];
