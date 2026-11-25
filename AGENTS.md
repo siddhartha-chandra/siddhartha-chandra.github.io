@@ -1,9 +1,11 @@
 # Design Context
 
-This project has PRODUCT.md and DESIGN.md at the root. Read both before generating any new UI.
+Read PRODUCT.md and DESIGN.md before generating UI.
 
 - **Register**: brand (personal portfolio — design IS the product)
 - **Platform**: web (Jekyll static site)
-- **North Star**: "The Study" — warm, grounded, substantive
-- **Key design rules**: Deep Teal used sparingly (≤15%), single system-sans stack, flat at rest with hover-only shadows, 8px rounding on containers, pill-shaped interactive elements
-- **Anti-references**: no gradient text, no glassmorphism, no decorative grids, no card grids with identical icon+heading+text, no uppercase tracked kickers above every section
+- **North Star**: “Connected thinking” — the owner-selected kinetic sculpture direction
+- **Key rules**: ivory/sage light mode, graphite/sage dark mode; one system-sans stack; oversized headings; flat ruled surfaces; 8px containers; pill controls; shared header/footer
+- **Motion**: home-only interactive point sculpture, explicit pause/play, reduced-motion paused by default, no frames offscreen or hidden, static SVG fallback
+- **Content**: retain existing facts and working links; do not invent claims or metrics
+- **Anti-references**: no gradient text, glassmorphism, decorative grids, fake telemetry, or identical icon/heading/text card grids
