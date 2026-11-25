@@ -971,8 +971,9 @@ a:hover .icon-back {
 
   .site-nav a {
     justify-content: center;
-    padding: 0.6rem 0.25rem;
+    padding: 0.6rem 0;
     font-size: 0.85rem;
+    white-space: nowrap;
   }
 
   .site-footer {
