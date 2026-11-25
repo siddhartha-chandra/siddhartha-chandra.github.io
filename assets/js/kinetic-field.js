@@ -133,7 +133,6 @@
     if (frame !== null) cancelAnimationFrame(frame);
     frame = null;
     lastFrame = 0;
-    motionButton.setAttribute('aria-pressed', String(paused));
     motionButton.setAttribute('aria-label', paused ? 'Play animation' : 'Pause animation');
     motionButton.firstElementChild.textContent = paused ? '▷' : 'Ⅱ';
     if (!paused && visible && !document.hidden) frame = requestAnimationFrame(animate);
