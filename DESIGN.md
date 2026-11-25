@@ -124,7 +124,7 @@ A restrained, two-accent palette on a warm neutral ground.
 **Character:** A single-family system-sans approach. Reliability and performance over personality — the font disappears so the content speaks. The weight range (400–760) provides enough hierarchy without a second face.
 
 ### Hierarchy
-- **Display** (650, `clamp(3.5rem, 8.5vw, 7.25rem)`, 0.98): Three-line home hero H1; mobile uses `clamp(2rem, 14vw, 6rem)` to accommodate enlarged text. Inner-page H1s use weight 600, `clamp(2.75rem, 6.5vw, 5rem)`, and 1.06 line height. Headings can wrap long words instead of overflowing.
+- **Display** (650, `clamp(3.5rem, 8.5vw, 7.25rem)`, 0.98): Three-line home hero H1; mobile uses `clamp(2rem, calc(1.5rem + 8vw), 6rem)` so it responds to both viewport and text size. Inner-page H1s use weight 600, `clamp(2.75rem, 6.5vw, 5rem)`, and 1.06 line height. Long words can wrap instead of overflowing.
 - **Headline** (600, `1.125rem–1.2rem`, 1.25): Discipline and experience labels. Project titles retain weight 720; blog links use `clamp(1.35rem, 2.5vw, 1.75rem)`.
 - **Title** (600, `1.05rem`, 1.3): Resume subtitle and section subheads.
 - **Body** (400, `clamp(1rem, 1.3vw, 1.125rem)`, 1.6): Prose content, with a maximum line length of 42rem. Intro copy uses `clamp(1rem, 1.4vw, 1.125rem)` and a 35rem measure.
