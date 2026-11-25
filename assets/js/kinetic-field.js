@@ -25,7 +25,7 @@
   let time = 0;
   let lastFrame = 0;
   let frame = null;
-  let visible = true;
+  let visible = false;
   let paused = reducedMotion.matches;
   let rotationX = -.27;
   let rotationY = .15;
