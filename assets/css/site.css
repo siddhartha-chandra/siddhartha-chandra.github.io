@@ -944,8 +944,8 @@ a:hover .icon-back {
   }
 
   .site-header {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.9rem;
     padding: 20px 0 16px;
@@ -956,15 +956,14 @@ a:hover .icon-back {
   }
 
   .theme-toggle {
-    grid-column: 2;
-    grid-row: 1;
+    margin-left: auto;
   }
 
   .site-nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 4em), 1fr));
-    grid-column: 1 / -1;
-    grid-row: 2;
+    flex-basis: 100%;
+    order: 1;
     justify-content: space-between;
     gap: 0.35rem;
   }
