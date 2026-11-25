@@ -598,7 +598,11 @@ a:hover .icon-back {
 }
 
 .publication-list .signal {
-  grid-template-columns: 5.5rem minmax(0, 1fr);
+  grid-template-columns: minmax(0, 9rem) minmax(0, 1fr);
+}
+
+.publication-list .signal strong {
+  overflow-wrap: anywhere;
 }
 
 .publication-list .signal a {
