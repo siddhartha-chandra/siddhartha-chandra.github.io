@@ -94,12 +94,15 @@
       }
     }
     replay.hidden = reducedMotion.matches;
-    replay.addEventListener('click', play);
+    replay.addEventListener('click', function () {
+      portrait.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      play();
+    });
     new IntersectionObserver(function (entries) {
       visible = entries[0].isIntersecting;
       if (!visible) finish();
       else if (!played) play();
-    }, { threshold: .3 }).observe(image);
+    }, { threshold: .3 }).observe(portrait);
     document.addEventListener('visibilitychange', function () {
       if (document.hidden) finish();
     });
