@@ -15,6 +15,7 @@
   let frame = null;
   let start = null;
   let visible = false;
+  let replayRequested = false;
   let played = reducedMotion.matches;
   let initialized = false;
 
@@ -59,6 +60,7 @@
   function play() {
     if (reducedMotion.matches || !visible || document.hidden) return;
     finish();
+    replayRequested = false;
     played = true;
     start = null;
     draw(0);
@@ -94,18 +96,27 @@
       }
     }
     replay.hidden = reducedMotion.matches;
-    replay.addEventListener('click', play);
+    replay.addEventListener('click', function () {
+      if (reducedMotion.matches || document.hidden) return;
+      replayRequested = true;
+      image.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      if (visible) play();
+    });
     new IntersectionObserver(function (entries) {
-      visible = entries[0].isIntersecting;
+      visible = entries[0].isIntersecting && entries[0].intersectionRatio >= .3;
       if (!visible) finish();
-      else if (!played) play();
+      else if (replayRequested || !played) play();
     }, { threshold: .3 }).observe(image);
     document.addEventListener('visibilitychange', function () {
-      if (document.hidden) finish();
+      if (document.hidden) {
+        replayRequested = false;
+        finish();
+      } else if (visible && !played) play();
     });
     reducedMotion.addEventListener('change', function () {
       replay.hidden = reducedMotion.matches;
       if (reducedMotion.matches) {
+        replayRequested = false;
         played = true;
         finish();
       }
