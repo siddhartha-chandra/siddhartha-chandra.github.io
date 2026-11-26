@@ -48,6 +48,8 @@ The home sculpture is a dependency-free canvas drawing of three parametric forms
 - Mode changes remain usable while paused; supporting content is never animation-dependent.
 - Keep the kinetic signature on the home page. Inner pages should be quiet enough to read.
 
+The home portrait samples the existing photograph into dots, gathers into a recognizable face, then reveals the real photo inside an eight-node connected frame. Play this short reveal once on entry, with an explicit replay action. Reduced motion, no JavaScript, or unavailable canvas show the photograph immediately; leaving the viewport or hiding the tab cancels the reveal. Keep the portrait caption in flow on mobile so enlarged text cannot overlap the sculpture controls.
+
 ## Avoid
 
 Gradient text, glassmorphism, decorative UI grids, fake telemetry, incessant animation, identical icon/heading/body card grids, excessive rounding, and resting drop shadows. The sculpture should communicate connection and curiosity without obscuring the person or the work.

@@ -15,15 +15,29 @@ layout: default
   </div>
 
   <div class="interactive-work">
-    <div class="sculpture" aria-hidden="true">
-      <svg class="sculpture-fallback" viewBox="0 0 600 600" fill="none">
-        <g stroke="currentColor" opacity=".5">
-          {% for i in (1..18) %}<ellipse cx="300" cy="300" rx="215" ry="95" transform="rotate({{ i | times: 10 }} 300 300)"/>{% endfor %}
-        </g>
-      </svg>
-      <canvas id="connection-field"></canvas>
-      <span class="sculpture-coordinate coordinate-top">01 — Intersections</span>
-      <span class="sculpture-coordinate coordinate-bottom">An exploration of connected thinking</span>
+    <div class="portrait-field">
+      <div class="sculpture" aria-hidden="true">
+        <svg class="sculpture-fallback" viewBox="0 0 600 600" fill="none">
+          <g stroke="currentColor" opacity=".5">
+            {% for i in (1..18) %}<ellipse cx="300" cy="300" rx="215" ry="95" transform="rotate({{ i | times: 10 }} 300 300)"/>{% endfor %}
+          </g>
+        </svg>
+        <canvas id="connection-field"></canvas>
+        <span class="sculpture-coordinate coordinate-top">01 — Intersections</span>
+        <span class="sculpture-coordinate coordinate-bottom">An exploration of connected thinking</span>
+      </div>
+      <figure class="portrait-node">
+        <svg class="portrait-connection" viewBox="0 0 70 50" fill="none" aria-hidden="true"><path d="M1 49 63 7" stroke="currentColor"/><circle cx="64" cy="6" r="3" fill="currentColor"/></svg>
+        <div class="portrait-image">
+          <img src="{{ '/assets/img/portrait-home.webp' | relative_url }}" alt="Siddhartha Chandra" width="640" height="640" fetchpriority="high">
+          <canvas class="portrait-dots" width="640" height="640" aria-hidden="true" hidden></canvas>
+          <svg class="portrait-frame" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+            <polygon points="54,4 146,4 196,54 196,146 146,196 54,196 4,146 4,54" pathLength="1" stroke="currentColor"/>
+            <g fill="currentColor"><circle cx="54" cy="4" r="3"/><circle cx="146" cy="4" r="3"/><circle cx="196" cy="54" r="3"/><circle cx="196" cy="146" r="3"/><circle cx="146" cy="196" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="4" cy="146" r="3"/><circle cx="4" cy="54" r="3"/></g>
+          </svg>
+        </div>
+        <figcaption><span>The person<br>behind the dots.</span><button class="portrait-replay icon-button" type="button" aria-label="Replay portrait from dots to photo" title="Replay dots-to-photo reveal" hidden><span aria-hidden="true">↻</span></button></figcaption>
+      </figure>
     </div>
     <div class="field-toolbar" hidden>
       <div class="field-modes" role="group" aria-label="Explore my focus areas">
