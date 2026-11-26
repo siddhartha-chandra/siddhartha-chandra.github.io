@@ -30,17 +30,17 @@ A thoughtful technologist with broad impact — engineering, data, teaching, and
 
 ## Brand Personality
 
-Thoughtful, calm, capable. Voice is direct and substantive — no fluff, no hype. The feel is someone who has done real work across enough domains to see the patterns.
+Thoughtful, curious, capable. Voice is direct and substantive — no fluff, no hype. The visual identity is confident and distinctive, anchored by an interactive sculpture connecting systems, data, and people.
 
 ## Anti-references
 
-Over-designed or flashy surfaces. No gradient text, no glassmorphism, no decorative grid backgrounds. The site earns attention through content, not chrome.
+Generic portfolio templates, fake dashboards, and distracting motion. No gradient text, glassmorphism, or decorative grid backgrounds. The kinetic home-page signature supports the content; inner pages stay focused on reading.
 
 ## Design Principles
 
 1. Substance over flash: every element earns its place. Decoration that doesn't communicate is removed.
 2. Breadth without clutter: show the range across four domains without overwhelming the visitor on any single screen.
-3. Calm confidence: the design signals capability through precision and restraint, not volume.
+3. Distinctive confidence: a generative home-page visual establishes identity, with precise typography and restrained shared components throughout.
 4. One site, one voice: the same direct, grounded tone across home, resume, and blog — no register shift between pages.
 
 ## Accessibility & Inclusion

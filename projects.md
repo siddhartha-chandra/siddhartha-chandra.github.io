@@ -6,6 +6,7 @@ description: Selected software systems, machine learning engineering, and algori
 ---
 
 <section class="page-hero" aria-labelledby="projects-heading">
+  <p class="page-index">01 / Selected work</p>
   <h1 id="projects-heading">Selected projects.</h1>
   <p class="page-intro">
     Software systems, applied machine learning, and interactive algorithmic research built end to end.
